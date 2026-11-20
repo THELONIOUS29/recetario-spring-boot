@@ -24,3 +24,8 @@ Proyecto recuperado de archivos académicos del propietario de la cuenta. La des
 Definir `APP_ADMIN_USER` y `APP_ADMIN_PASSWORD` en el entorno antes de iniciar. No hay cuenta ni contraseña predeterminadas. La contraseña debe tener al menos 12 caracteres. El acceso a rutas de la aplicación requiere autenticación; la consola H2 queda desactivada y CSRF permanece activado.
 
 El cierre de sesión requiere un formulario POST a `/recetas/logout` con el token CSRF de Thymeleaf. Esta copia conserva dependencias antiguas; se necesita revisar y actualizar el framework antes de un despliegue real. Los cambios no se aplicaron a ningún servicio desplegado.
+
+
+## Publicación y configuración
+
+Código compartido para portafolio profesional. No incluye credenciales del negocio. Preparación de seguridad del 20 de noviembre de 2026; no equivale a una validación de producción.
