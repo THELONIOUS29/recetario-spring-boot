@@ -1,0 +1,7 @@
+{
+    "properties": [{
+        "name": "upload.path",
+        "type": "java.lang.String",
+        "description": "Ruta absoluta donde se guardan las imágenes subidas por los usuarios."
+    }]
+}
